@@ -18,13 +18,13 @@ jobs:
         username: "${{ secrets.DOCKERHUB_USERNAME }}"  
         password: "${{ secrets.DOCKERHUB_PASSWORD }}" 
         dockerfile: Docker/Dockerfile
-        image_name: uclgeog
-        build_extra_args: "--target uclgeog"
+        image_name: geog0666
+        build_extra_args: "--target geog0666"
         push_git_tag: true
         push_image_and_stages: true
     - name: Run test
       run: |
-        docker run --rm -d --name test_container -p 8888:8888 "${{ secrets.DOCKERHUB_USERNAME }}"/uclgeog
+        docker run --rm -d --name test_container -p 8888:8888 "${{ secrets.DOCKERHUB_USERNAME }}"/geog0666
         docker run --link test_container:test_container waisbrot/wait
         curl --fail http://localhost:8888
 

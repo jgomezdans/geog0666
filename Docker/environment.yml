@@ -1,4 +1,4 @@
-name: uclgeog
+name: geog0666
 channels:
   - conda-forge
   - defaults
@@ -42,3 +42,7 @@ dependencies:
   - pip
   - yapf
   - autopep8
+  - osmnx
+  - networkx
+  - tensorflow 
+  - nltk 
