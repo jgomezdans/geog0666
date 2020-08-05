@@ -1,0 +1,44 @@
+name: uclgeog
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.7
+  - nomkl
+  - libgdal
+  - geopandas
+  - rasterio
+  - scipy
+  - gdal
+  - beautifulsoup4
+  - fiona
+  - numpy
+  - statsmodels
+  - cartopy
+  - scikit-image
+  - netcdf4
+  - scikit-learn
+  - matplotlib-base
+  - pandas
+  - shapely
+  - ipyleaflet
+  - pytest
+  - seaborn
+  - hdf5
+  - flake8
+  - ipywidgets
+  - xarray
+  - black
+  - folium
+  - jupyter_console
+  - pandocfilters
+  - nbconvert
+  - jupyterlab
+  - pandoc
+  - pyephem
+  - libnetcdf
+  - ipykernel
+  - ipympl
+  - pip
+  - yapf
+  - autopep8
